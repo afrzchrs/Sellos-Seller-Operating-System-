@@ -53,7 +53,7 @@ bot.start(async (ctx) => {
           productListText = storeProducts
             .map(
               (p, index) =>
-                `${index + 1}. *${p.name}* - Rp ${Number(p.price).toLocaleString("id-ID")}`,
+                `${index + 1}. *${p.name}* - Rp ${(p.price as any).toLocaleString("id-ID")}`,
             )
             .join("\n");
         } else {
