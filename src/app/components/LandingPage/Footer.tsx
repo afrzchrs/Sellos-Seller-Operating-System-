@@ -19,7 +19,7 @@ const Footer = () => {
               Sellos.
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
-              Platform asisten bisnis cerdas berbasis AI untuk bantu UMKM Indonesia naik kelas, kelola operasional cukup dari WhatsApp.
+              Platform asisten bisnis cerdas berbasis AI untuk bantu UMKM Indonesia naik kelas, kelola operasional cukup dari Telegram.
             </p>
             <div className="flex gap-4 pt-2">
               <a href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-emerald-600 hover:text-white transition-all">

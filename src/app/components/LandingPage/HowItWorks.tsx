@@ -6,7 +6,7 @@ const HowItWorks = () => {
     {
       icon: <Mic className="w-6 h-6 text-white" />,
       title: "1. Rekam Pesan Suara",
-      desc: "Tidak perlu mengetik atau isi formulir rumit. Cukup kirim voice note ke nomor WhatsApp WiraBot tentang transaksi atau pesanan hari ini."
+      desc: "Tidak perlu mengetik atau isi formulir rumit. Cukup kirim voice note ke nomor Telegram WiraBot tentang transaksi atau pesanan hari ini."
     },
     {
       icon: <BrainCircuit className="w-6 h-6 text-white" />,
@@ -30,7 +30,7 @@ const HowItWorks = () => {
             Semudah Mengirim Chat ke Teman
           </h2>
           <p className="text-lg text-slate-600">
-            Tinggalkan cara lama. Sellos menyulap WhatsApp Anda menjadi asisten bisnis pintar yang bekerja 24 jam penuh.
+            Tinggalkan cara lama. Sellos menyulap Telegram Anda menjadi asisten bisnis pintar yang bekerja 24 jam penuh.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ const HowItWorks = () => {
               {/* Phone Screen */}
               <div className="absolute inset-0 bg-[#E5DDD5] flex flex-col">
                 
-                {/* App Bar (WhatsApp Style) */}
+                {/* App Bar (Telegram Style) */}
                 <div className="bg-[#075E54] px-4 py-3 flex items-center gap-3 shadow-sm z-10">
                   <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center text-white font-bold text-sm">
                     WB

@@ -11,15 +11,15 @@ const faqs = [
     items: [
       {
         q: "Apa itu Sellos dan WiraBot?",
-        a: "Sellos adalah platform manajemen bisnis berbasis AI untuk UMKM. Sedangkan WiraBot adalah asisten virtual di dalam Sellos yang beroperasi langsung lewat WhatsApp Anda untuk mencatat keuangan, membalas chat pelanggan, dan mengecek stok."
+        a: "Sellos adalah platform manajemen bisnis berbasis AI untuk UMKM. Sedangkan WiraBot adalah asisten virtual di dalam Sellos yang beroperasi langsung lewat Telegram Anda untuk mencatat keuangan, membalas chat pelanggan, dan mengecek stok."
       },
       {
         q: "Apakah saya perlu mengunduh aplikasi baru di HP?",
-        a: "Tidak perlu! Untuk operasional sehari-hari seperti membalas chat dan mencatat kas, Anda cukup menggunakan WhatsApp. Dashboard Sellos (untuk analitik dan pengaturan) bisa diakses lewat browser web apa pun (Chrome/Safari) tanpa memakan memori HP."
+        a: "Tidak perlu! Untuk operasional sehari-hari seperti membalas chat dan mencatat kas, Anda cukup menggunakan Telegram. Dashboard Sellos (untuk analitik dan pengaturan) bisa diakses lewat browser web apa pun (Chrome/Safari) tanpa memakan memori HP."
       },
       {
         q: "Saya gaptek, apakah aplikasi ini sulit digunakan?",
-        a: "Sama sekali tidak. Jika Anda bisa mengirim pesan suara (voice note) atau mengetik pesan di WhatsApp, maka Anda sudah bisa menggunakan seluruh fitur canggih aplikasi ini."
+        a: "Sama sekali tidak. Jika Anda bisa mengirim pesan suara (voice note) atau mengetik pesan di Telegram, maka Anda sudah bisa menggunakan seluruh fitur canggih aplikasi ini."
       }
     ]
   },
@@ -28,7 +28,7 @@ const faqs = [
     items: [
       {
         q: "Bagaimana cara bot mencatat keuangan saya otomatis?",
-        a: "Cukup kirim pesan suara ke nomor WhatsApp WiraBot Anda, misalnya: 'Hari ini laku 10 porsi ayam, total 200 ribu'. AI kami akan mengubah suara tersebut menjadi data dan langsung memasukkannya ke dalam tabel arus kas di dashboard Anda."
+        a: "Cukup kirim pesan suara ke nomor Telegram WiraBot Anda, misalnya: 'Hari ini laku 10 porsi ayam, total 200 ribu'. AI kami akan mengubah suara tersebut menjadi data dan langsung memasukkannya ke dalam tabel arus kas di dashboard Anda."
       },
       {
         q: "Apakah saya bisa mengelola lebih dari 1 toko (cabang)?",

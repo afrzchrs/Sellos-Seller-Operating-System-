@@ -50,7 +50,7 @@ const CTA = () => {
            text-emerald-100 text-sm font-medium">
             <div className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-emerald-300" />
-              <span>Daftar pakai nomor WhatsApp</span>
+              <span>Daftar pakai nomor Telegram</span>
             </div>
             {/*<div className="hidden sm:block w-1 h-1 bg-emerald-400 rounded-full"></div>*/}
             {/*<div className="flex items-center gap-1.5">

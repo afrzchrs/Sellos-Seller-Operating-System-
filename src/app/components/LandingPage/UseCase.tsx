@@ -14,9 +14,9 @@ const UseCases = () => {
       color: 'bg-orange-500',
       lightColor: 'bg-orange-50',
       title: 'Fokus Masak, Biar Bot yang Terima Orderan',
-      description: 'Jam makan siang seringkali bikin kewalahan? WiraBot otomatis merekap pesanan dari WhatsApp, menghitung total harga, dan langsung memotong stok harian Anda.',
+      description: 'Jam makan siang seringkali bikin kewalahan? WiraBot otomatis merekap pesanan dari Telegram, menghitung total harga, dan langsung memotong stok harian Anda.',
       benefits: [
-        'Terima pesanan WhatsApp 24/7 otomatis',
+        'Terima pesanan Telegram 24/7 otomatis',
         'Potong stok bahan baku (beras, ayam, dll) real-time',
         'Analitik menu paling laris di akhir minggu'
       ],

@@ -17,7 +17,7 @@ const HeorSection = () => {
             </h1>
             <p className="text-lg text-[#64748B]">
               Catat Penjualan, Kelola stok, balas chat, hingga bikin konten
-              jualan otomatis hanya lewat WhatsApp.
+              jualan otomatis hanya lewat Telegram.
             </p>
           </div>
           <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mt-10">

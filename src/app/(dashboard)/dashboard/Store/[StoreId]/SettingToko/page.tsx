@@ -235,7 +235,7 @@ export default function PengaturanTokoPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label className=" text-sm font-bold text-slate-700 mb-2 flex items-center gap-1.5">
-                <Phone className="w-4 h-4 text-slate-400" /> Nomor WhatsApp Admin
+                <Phone className="w-4 h-4 text-slate-400" /> Nomor Kontak Admin
               </label>
               <div className="relative">
                 <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 font-bold">+62</span>
