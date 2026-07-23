@@ -35,7 +35,7 @@ const CTA = () => {
           {/* Action Buttons */}
           <div className="relative z-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
-              href="/register" 
+              href="/Auth/register" 
               className="w-full sm:w-auto flex items-center justify-center gap-2
                bg-white text-emerald-700 px-8 py-4 rounded-full font-bold text-lg
                hover:bg-slate-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"

@@ -10,12 +10,12 @@ const faqs = [
     category: "Pertanyaan Umum",
     items: [
       {
-        q: "Apa itu Laris.in dan WiraBot?",
-        a: "Laris.in adalah platform manajemen bisnis berbasis AI untuk UMKM. Sedangkan WiraBot adalah asisten virtual di dalam Laris.in yang beroperasi langsung lewat WhatsApp Anda untuk mencatat keuangan, membalas chat pelanggan, dan mengecek stok."
+        q: "Apa itu Sellos dan WiraBot?",
+        a: "Sellos adalah platform manajemen bisnis berbasis AI untuk UMKM. Sedangkan WiraBot adalah asisten virtual di dalam Sellos yang beroperasi langsung lewat WhatsApp Anda untuk mencatat keuangan, membalas chat pelanggan, dan mengecek stok."
       },
       {
         q: "Apakah saya perlu mengunduh aplikasi baru di HP?",
-        a: "Tidak perlu! Untuk operasional sehari-hari seperti membalas chat dan mencatat kas, Anda cukup menggunakan WhatsApp. Dashboard Laris.in (untuk analitik dan pengaturan) bisa diakses lewat browser web apa pun (Chrome/Safari) tanpa memakan memori HP."
+        a: "Tidak perlu! Untuk operasional sehari-hari seperti membalas chat dan mencatat kas, Anda cukup menggunakan WhatsApp. Dashboard Sellos (untuk analitik dan pengaturan) bisa diakses lewat browser web apa pun (Chrome/Safari) tanpa memakan memori HP."
       },
       {
         q: "Saya gaptek, apakah aplikasi ini sulit digunakan?",
@@ -48,7 +48,7 @@ const faqs = [
         a: "Sangat aman. Kami menggunakan infrastruktur database standar industri (seperti PostgreSQL) dengan enkripsi penuh. Data Anda tidak akan pernah dijual atau dibagikan ke pihak ketiga."
       },
       {
-        q: "Berapa biaya berlangganan Laris.in?",
+        q: "Berapa biaya berlangganan Sellos?",
         a: "Kami menyediakan uji coba gratis (Free Trial) selama 14 hari tanpa perlu memasukkan kartu kredit. Setelah itu, kami memiliki paket terjangkau yang dirancang khusus untuk kantong UMKM mulai dari Rp 49.000/bulan."
       }
     ]
@@ -77,7 +77,7 @@ const FAQPage = () => {
             Pusat Bantuan & FAQ
           </h1>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Temukan jawaban untuk pertanyaan yang paling sering diajukan seputar Laris.in dan bagaimana AI kami bisa membantu usaha Anda.
+            Temukan jawaban untuk pertanyaan yang paling sering diajukan seputar Sellos dan bagaimana AI kami bisa membantu usaha Anda.
           </p>
         </div>
 
@@ -140,7 +140,7 @@ const FAQPage = () => {
             Tim dukungan kami siap membantu menjawab kebingungan Anda. Jangan ragu untuk menghubungi kami.
           </p>
           <Link 
-            href="mailto:halo@laris.in" 
+            href="mailto:halo@Sellos" 
             className="relative z-10 inline-flex items-center gap-2 bg-white text-emerald-700 px-6 py-3 rounded-full font-semibold hover:bg-emerald-50 transition-colors shadow-sm hover:shadow-md"
           >
             <Mail className="w-5 h-5" />

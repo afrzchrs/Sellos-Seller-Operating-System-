@@ -67,8 +67,8 @@ const Footer = () => {
                 <Link href="/blog" className="hover:text-emerald-400 transition-colors">Blog & Edukasi Bisnis</Link>
               </li>
               <li>
-                <a href="mailto:bantuan@laris.in" className="inline-flex items-center gap-2 hover:text-emerald-400 transition-colors">
-                  <Mail className="w-4 h-4" /> bantuan@laris.in
+                <a href="mailto:bantuan@Sellos" className="inline-flex items-center gap-2 hover:text-emerald-400 transition-colors">
+                  <Mail className="w-4 h-4" /> bantuan@Sellos
                 </a>
               </li>
             </ul>
@@ -95,7 +95,7 @@ const Footer = () => {
         {/* Bottom Section: Copyright */}
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm text-center md:text-left">
-            &copy; {currentYear} Laris.in (PT Solusi AI Indonesia). Hak Cipta Dilindungi.
+            &copy; {currentYear} Sellos (PT Solusi AI Indonesia). Hak Cipta Dilindungi.
           </p>
           <div className="flex items-center gap-2 text-slate-500 text-sm">
             <span>Dibuat dengan ❤️ untuk UMKM Indonesia</span>

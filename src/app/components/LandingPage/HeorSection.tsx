@@ -22,14 +22,14 @@ const HeorSection = () => {
           </div>
           <div className="max-w-7xl px-4 sm:px-6 lg:px-8 mt-10">
             <a
-              href="#"
+              href="/Auth/register"
               className="inline-block bg-[#10B981] text-white px-6 py-3 rounded-full font-medium
          hover:bg-green-700 mr-4 transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
             >
               Mulai Sekarang
             </a>
             <a
-              href="#"
+              href="/#how-it-works"
               className="inline-block text-[#10B981] underline font-medium hover:text-green-700 transition-colors"
             >
               Pelajari Lebih Lanjut

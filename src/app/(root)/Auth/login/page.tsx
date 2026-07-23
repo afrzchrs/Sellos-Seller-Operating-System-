@@ -70,7 +70,7 @@ const LoginPage = () => {
               Selamat Datang Kembali
             </h1>
             <p className="text-slate-500">
-              Masuk ke dashboard Laris.in untuk mulai memantau penjualan dan
+              Masuk ke dashboad Sellos untuk mulai memantau penjualan dan
               mengelola WiraBot Anda.
             </p>
           </div>
@@ -224,7 +224,7 @@ const LoginPage = () => {
             Jalankan bisnis tanpa pusing pembukuan manual.
           </h2>
           <p className="text-emerald-100 text-lg mb-10 leading-relaxed">
-            "Semenjak pakai Laris.in, saya gak pernah lagi salah catat stok atau
+            "Semenjak pakai Sellos, saya gak pernah lagi salah catat stok atau
             kelewatan balas chat pelanggan. Semua sudah diurus sama AI, saya
             tinggal fokus masak."
           </p>

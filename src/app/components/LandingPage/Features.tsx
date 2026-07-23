@@ -12,7 +12,7 @@ const Features = () => {
             Satu Aplikasi, <span className="text-emerald-600">Beragam Superpower</span>
           </h2>
           <p className="text-lg text-slate-600">
-            Laris.in mengemas kecerdasan buatan kelas dunia ke dalam fitur-fitur sederhana yang siap membantu usaha Anda naik kelas.
+            Sellos mengemas kecerdasan buatan kelas dunia ke dalam fitur-fitur sederhana yang siap membantu usaha Anda naik kelas.
           </p>
         </div>
 

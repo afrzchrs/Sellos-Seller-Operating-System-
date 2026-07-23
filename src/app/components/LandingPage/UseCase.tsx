@@ -61,7 +61,7 @@ const UseCases = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-slate-900 mb-6 leading-tight">
-            Apapun Usahanya, <br className="hidden md:block" /> Asistennya Tetap Laris.in
+            Apapun Usahanya, <br className="hidden md:block" /> Asistennya Tetap Sellos
           </h2>
           <p className="text-lg text-slate-600">
             Punya warung makan sekaligus toko baju? Tidak masalah. Kelola banyak usaha dengan karakter bot yang menyesuaikan bisnis Anda.

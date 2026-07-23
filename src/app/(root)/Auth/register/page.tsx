@@ -70,8 +70,26 @@ const RegisterPage = () => {
           </div>
 
           {/* Form Daftar */}
-          <form className="space-y-5" onSubmit={(e) => e.preventDefault()}>
+          <form className="space-y-5" onSubmit={handleUserRegister}>
             
+            {/* TAMPILKAN ALERT ERROR DI SINI */}
+            {error && (
+              <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-lg shadow-sm animate-pulse">
+                <div className="flex items-center">
+                  <div className="shrink-0">
+                    <svg className="h-5 w-5 text-red-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                  <div className="ml-3">
+                    <p className="text-sm text-red-700 font-semibold">
+                      {error}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Input Nama Lengkap */}
             <div className="space-y-2">
               <label className="text-sm font-semibold text-slate-700">Nama Lengkap</label>
@@ -98,9 +116,9 @@ const RegisterPage = () => {
                   <Mail className="h-5 w-5 text-slate-400" />
                 </div>
                 <input 
-                  type="text" 
-                  value = {email}
-                  onChange = {(e) => setEmail(e.target.value)}
+                  type="email" 
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
                   placeholder="contoh@email.com"
                   required
@@ -117,10 +135,11 @@ const RegisterPage = () => {
                 </div>
                 <input 
                   type={showPassword ? "text" : "password"} 
-                  value = {password}
-                  onChange = {(e) => setPassword(e.target.value)}
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   className="w-full pl-10 pr-12 py-3 bg-slate-50 border border-slate-200 rounded-xl text-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all"
                   placeholder="Minimal 8 karakter"
+                  minLength={8}
                   required
                 />
                 <button 
@@ -146,18 +165,19 @@ const RegisterPage = () => {
                 Saya setuju dengan{' '}
                 <Link href="#" className="font-semibold text-emerald-600 hover:underline">Syarat Ketentuan</Link>
                 {' '}dan{' '}
-                <Link href="#" className="font-semibold text-emerald-600 hover:underline">Kebijakan Privasi</Link> Laris.in.
+                <Link href="#" className="font-semibold text-emerald-600 hover:underline">Kebijakan Privasi</Link> Sellos.
               </label>
             </div>
 
             {/* Submit Button */}
             <button 
               type="submit" 
-              onClick={handleUserRegister}
               disabled={isLoading}
-              className="w-full bg-emerald-600 text-white font-bold rounded-xl py-3.5 hover:bg-emerald-700 transition-colors shadow-sm hover:shadow-md mt-2"
+              className={`w-full text-white font-bold rounded-xl py-3.5 transition-all shadow-sm hover:shadow-md mt-2 ${
+                isLoading ? "bg-emerald-400 cursor-not-allowed" : "bg-emerald-600 hover:bg-emerald-700"
+              }`}
             >
-              {isLoading ? "Memuat" : "Buat Akun Gratus"}
+              {isLoading ? "Memproses..." : "Buat Akun Gratis"}
             </button>
           </form>
 

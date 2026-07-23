@@ -30,7 +30,7 @@ const HowItWorks = () => {
             Semudah Mengirim Chat ke Teman
           </h2>
           <p className="text-lg text-slate-600">
-            Tinggalkan cara lama. Laris.in menyulap WhatsApp Anda menjadi asisten bisnis pintar yang bekerja 24 jam penuh.
+            Tinggalkan cara lama. Sellos menyulap WhatsApp Anda menjadi asisten bisnis pintar yang bekerja 24 jam penuh.
           </p>
         </div>
 
